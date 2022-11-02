@@ -4,10 +4,10 @@
 
 "sites": [
 
-{"key":"mtv_pc_酷云七七","name":"爬虫┃酷云七七","type":3,"api":"csp_Kunyu77"       ,"searchable":1,"quickSearch":1,"filterable":1},
-{"key":"mtv_pc_小苹果源","name":"爬虫┃小苹果源","type":3,"api":"csp_LiteApple"     ,"searchable":1,"quickSearch":1,"filterable":1,"jar":"http://m.miaotvs.cn/资源包2.jar;md5;A4D0F912AFAAF7B877125CA73A89F3B9"},
-{"key":"mtv_pc_厂长影视","name":"爬虫┃厂长资源","type":3,"api":"csp_Czsapp"        ,"searchable":1,"quickSearch":1,"filterable":0,"jar":"http://m.miaotvs.cn/资源包2.jar;md5;A4D0F912AFAAF7B877125CA73A89F3B9"},
-{"key":"mtv_xp_奇优影院","name":"切片┃奇优影院","type":3,"api":"csp_XBiubiu"       ,"searchable":0,"quickSearch":0,"filterable":0,"ext":"http://111.67.196.181/xpath/太陽-奇优影院.json"}],
+{"key":"mtv_pc_酷云七七","name":"酷云七七","type":3,"api":"csp_Kunyu77"       ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"mtv_pc_小苹果源","name":"小苹果源","type":3,"api":"csp_LiteApple"     ,"searchable":1,"quickSearch":1,"filterable":1,"jar":"http://m.miaotvs.cn/资源包2.jar;md5;A4D0F912AFAAF7B877125CA73A89F3B9"},
+{"key":"mtv_pc_厂长影视","name":"厂长资源","type":3,"api":"csp_Czsapp"        ,"searchable":1,"quickSearch":1,"filterable":0,"jar":"http://m.miaotvs.cn/资源包2.jar;md5;A4D0F912AFAAF7B877125CA73A89F3B9"},
+
 
 //解析接口
 
@@ -18,11 +18,11 @@
 {"name":"线路1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name":"线路2","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name":"线路3","type":0,"url":"https://h5.freejson.xyz/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
-{"name":"线路4","type":1,"url":"https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},
+{"name":"线路4","type":2,"url":"https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},
 {"name":"线路5","type":0,"url":"https://okjx.cc/?url="},
-{"name":"线路6","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
-{"name":"线路7","type":0,"url":"https://jx.parwix.com:4433/player/analysis.php?v="},
-{"name":"线路8","type":0,"url":"https://www.nxflv.com/?url="},
+{"name":"线路6","type":3,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
+{"name":"线路7","type":3,"url":"https://jx.parwix.com:4433/player/analysis.php?v="},
+{"name":"线路8","type":2,"url":"https://www.nxflv.com/?url="},
 {"name":"线路9","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}}],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 
