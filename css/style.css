@@ -253,7 +253,7 @@ select.input-lg {
 }
 @media screen and (max-width: 1200px){
 	.cnt-4,.cnt-5{
-		display:none;
+		display:block;
 	}
 }
 @media screen and (max-width: 990px){
